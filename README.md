@@ -9,6 +9,7 @@ Copy the ginput_lld_mouse_board.h into:
 Modify the Makefile for your settings.
 
 Touchscreen connection:
+
   SCK:             GPIOB, 13
   MISO:            GPIOB, 14
   MOSI:            GPIOB, 15
@@ -16,6 +17,7 @@ Touchscreen connection:
   IRQ:             GPIOC, 5
 
 SSD1289 board connection:
+
   CS		PD7
   RST		PD10
   RS		PD11
